@@ -190,7 +190,7 @@ class Student extends Lambdasian{
       console.log(`My grade is ${this.grade} oh no gotta redo assignments!`);
       this.grade = 50;
      teacher.flex(this);
-     return this.graduate();
+     return this.graduate(teacher);
     } else{
      return (`My grade is ${this.grade}! I AM Graduating, oh yea baby!`);
     }
